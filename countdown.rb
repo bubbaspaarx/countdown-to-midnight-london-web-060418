@@ -6,3 +6,5 @@ def countdown(number)
   "#{number - counter} SECOND(S)!"
   end
 end
+
+countdown(22)
