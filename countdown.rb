@@ -14,6 +14,7 @@ def countown_with_sleep(number)
   while counter <= number 
     puts "#{number - counter} SECOND(S)!"
     counter += 1
+    sleep(1)
   end
   return "HAPPY NEW YEAR!"
 end
